@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak & Lokasi - SDN Wonokromo III</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>SDN Wonokromo III</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="profil.html">Profil Sekolah</a></li>
+                <li><a href="galeri.html">Galeri Kegiatan</a></li>
+                <li><a href="berita.html">Berita & Pengumuman</a></li>
+                <li><a href="kontak.html" class="active">Kontak & Lokasi</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Kontak & Lokasi</h1>
+            <p>Hubungi kami dan kunjungi sekolah kami</p>
+        </div>
+    </section>
+
+    <!-- Main Contact Section -->
+    <section class="contact-main">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Info -->
+                <div class="contact-info-section">
+                    <h2>Informasi Kontak</h2>
+                    
+                    <div class="contact-item">
+                        <div class="icon">📍</div>
+                        <div class="details">
+                            <h3>Alamat Lengkap</h3>
+                            <p>Jalan Pendidikan No. 123</p>
+                            <p>Kelurahan Wonokromo</p>
+                            <p>Kecamatan Wonokromo</p>
+                            <p>Jakarta Timur 13410</p>
+                            <p>Provinsi DKI Jakarta</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="icon">📞</div>
+                        <div class="details">
+                            <h3>Nomor Telepon</h3>
+                            <p><strong>Utama:</strong> (021) 123-4567</p>
+                            <p><strong>Kepala Sekolah:</strong> (021) 123-4568</p>
+                            <p><strong>Tata Usaha:</strong> (021) 123-4569</p>
+                            <p><strong>Tersedia:</strong> Senin-Jumat, 07:00-16:00 WIB</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="icon">📧</div>
+                        <div class="details">
+                            <h3>Email</h3>
+                            <p><strong>Email Utama:</strong> info@sdnwonokromo3.sch.id</p>
+                            <p><strong>Administrasi:</strong> admin@sdnwonokromo3.sch.id</p>
+                            <p><strong>Layanan Siswa:</strong> siswa@sdnwonokromo3.sch.id</p>
+                            <p><strong>Respons Waktu:</strong> Maksimal 24 jam</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="icon">🕐</div>
+                        <div class="details">
+                            <h3>Jam Operasional</h3>
+                            <p><strong>Hari Kerja:</strong> 07:00 - 16:00 WIB</p>
+                            <p><strong>Senin-Jumat:</strong> Buka</p>
+                            <p><strong>Sabtu & Minggu:</strong> Tutup</p>
+                            <p><strong>Libur Nasional:</strong> Tutup</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="icon">📱</div>
+                        <div class="details">
+                            <h3>Media Sosial</h3>
+                            <p><a href="#" target="_blank">Facebook: SDN Wonokromo III</a></p>
+                            <p><a href="#" target="_blank">Instagram: @sdnwonokromo3</a></p>
+                            <p><a href="#" target="_blank">YouTube: SDN Wonokromo III</a></p>
+                            <p><a href="#" target="_blank">WhatsApp: 0812-3456-7890</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-section">
+                    <h2>Hubungi Kami</h2>
+                    <p>Silakan isi formulir berikut untuk mengirim pesan kepada kami. Kami akan merespons secepatnya.</p>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="nama">Nama Lengkap *</label>
+                            <input type="text" id="nama" name="nama" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telepon">Nomor Telepon *</label>
+                            <input type="tel" id="telepon" name="telepon" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subjek">Subjek Pesan *</label>
+                            <select id="subjek" name="subjek" required>
+                                <option value="">-- Pilih Subjek --</option>
+                                <option value="ppdb">Pertanyaan PPDB</option>
+                                <option value="akademik">Pertanyaan Akademik</option>
+                                <option value="ekstrakurikuler">Ekstrakurikuler</option>
+                                <option value="fasilitas">Fasilitas Sekolah</option>
+                                <option value="umum">Pertanyaan Umum</option>
+                                <option value="saran">Saran & Masukan</option>
+                                <option value="keluhan">Keluhan</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="pesan">Pesan *</label>
+                            <textarea id="pesan" name="pesan" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-submit">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Maps -->
+    <section class="map-section">
+        <h2>Lokasi Sekolah</h2>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322945!2d106.83!3d-6.27!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5f5f5f5f5f5%3A0x5f5f5f5f5f5f5f5f!2sJalan%20Pendidikan%20No%20123%2C%20Jakarta!5e0!3m2!1sid!2sid!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <!-- Directions & Transportation -->
+    <section class="directions-section">
+        <div class="container">
+            <h2>Cara Menuju Sekolah</h2>
+            <div class="directions-grid">
+                <div class="direction-card">
+                    <h3>🚌 Menggunakan Angkutan Umum</h3>
+                    <p><strong>Dari Stasiun Kota Arah Bekasi:</strong></p>
+                    <p>Naik KRL Jabodetabek hingga Stasiun Wonokromo, kemudian naik angkot rute 01 atau 02 menuju Jalan Pendidikan.</p>
+                    <p><strong>Dari Pusat Kota Jakarta:</strong></p>
+                    <p>Naik TransJakarta koridor 8 atau 9 turun di Halte Wonokromo, kemudian jalan kaki atau naik angkot lokal.</p>
+                </div>
+
+                <div class="direction-card">
+                    <h3>🚗 Menggunakan Kendaraan Pribadi</h3>
+                    <p><strong>Dari Jalan Jend. Sudirman (Arah Selatan):</strong></p>
+                    <p>Ikuti jalan hingga ke Jalan MT. Haryono, lalu belok kanan menuju Jalan Pendidikan No. 123.</p>
+                    <p><strong>Tersedia:</strong> Tempat parkir yang cukup untuk kendaraan siswa dan tamu.</p>
+                </div>
+
+                <div class="direction-card">
+                    <h3>🚶 Berjalan Kaki</h3>
+                    <p><strong>Dari Halte Terdekat:</strong></p>
+                    <p>Halte TransJakarta atau Stasiun Wonokromo berjarak sekitar 500 meter dari sekolah dengan rute yang mudah dan aman.</p>
+                    <p><strong>Area:</strong> Lingkungan yang cukup aman dengan penerangan jalan yang memadai.</p>
+                </div>
+
+                <div class="direction-card">
+                    <h3>🚴 Bersepeda</h3>
+                    <p><strong>Dari Berbagai Arah:</strong></p>
+                    <p>Jalur sepeda tersedia di beberapa jalan menuju sekolah. Sekolah menyediakan tempat parkir sepeda yang aman.</p>
+                    <p><strong>Keamanan:</strong> Area sekolah relatif aman untuk sepeda motor dan sepeda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Contact Cards -->
+    <section class="quick-contact-section">
+        <div class="container">
+            <h2>Hubungi Departemen Khusus</h2>
+            <div class="quick-contact-grid">
+                <div class="quick-contact-card">
+                    <h3>Kantor Kepala Sekolah</h3>
+                    <p>📞 (021) 123-4568</p>
+                    <p>📧 kepala@sdnwonokromo3.sch.id</p>
+                    <p>Untuk pertemuan dengan kepala sekolah, silakan menghubungi terlebih dahulu.</p>
+                </div>
+                <div class="quick-contact-card">
+                    <h3>Tata Usaha & Administrasi</h3>
+                    <p>📞 (021) 123-4569</p>
+                    <p>📧 admin@sdnwonokromo3.sch.id</p>
+                    <p>Untuk pertanyaan PPDB, dokumen, dan administrasi sekolah.</p>
+                </div>
+                <div class="quick-contact-card">
+                    <h3>Layanan Siswa & Akademik</h3>
+                    <p>📞 (021) 123-4570</p>
+                    <p>📧 siswa@sdnwonokromo3.sch.id</p>
+                    <p>Untuk pertanyaan seputar akademik dan pengembangan siswa.</p>
+                </div>
+                <div class="quick-contact-card">
+                    <h3>Fasilitas & Infrastruktur</h3>
+                    <p>📞 (021) 123-4571</p>
+                    <p>📧 fasilitas@sdnwonokromo3.sch.id</p>
+                    <p>Untuk pertanyaan tentang fasilitas sekolah dan perbaikan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section">
+        <div class="container">
+            <h2>Pertanyaan Umum (FAQ)</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h4>Kapan jam kunjungan orang tua ke sekolah?</h4>
+                    <p>Orang tua dapat berkunjung pada hari kerja (Senin-Jumat) dari jam 07:00 hingga 16:00 WIB dengan pemberitahuan terlebih dahulu melalui telepon atau email.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Apakah sekolah memiliki layanan antar jemput siswa?</h4>
+                    <p>Ya, sekolah menyediakan layanan antar jemput untuk siswa dengan rute-rute tertentu. Hubungi Tata Usaha untuk informasi lebih detail.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Bagaimana cara mendaftar sebagai siswa baru?</h4>
+                    <p>Pendaftaran siswa baru dilakukan melalui PPDB (Penerimaan Peserta Didik Baru) yang biasanya dibuka di bulan Maret. Silakan kunjungi halaman Berita untuk info PPDB terbaru.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Apakah sekolah memiliki asrama?</h4>
+                    <p>Saat ini SDN Wonokromo III tidak memiliki asrama. Semua siswa adalah siswa harian biasa yang pulang ke rumah setiap harinya.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Tentang Kami</h4>
+                    <p>SDN Wonokromo III adalah institusi pendidikan yang berkomitmen untuk memberikan pendidikan berkualitas tinggi dengan nilai-nilai karakter yang kuat.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Tautan Cepat</h4>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="profil.html">Profil Sekolah</a></li>
+                        <li><a href="galeri.html">Galeri</a></li>
+                        <li><a href="berita.html">Berita</a></li>
+                        <li><a href="kontak.html">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Kontak Kami</h4>
+                    <p>📞 Telepon: (021) 123-4567</p>
+                    <p>📧 Email: info@sdnwonokromo3.sch.id</p>
+                    <p>📍 Jalan Pendidikan No. 123, Jakarta</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 SDN Wonokromo III. Semua hak dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
